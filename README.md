@@ -1,8 +1,15 @@
-## cadastro de endereço
+# cadastro de endereço
 
 ### site para cadastrar seu cep e saver o bairro, rua e cidade 
 esse site foi desenvolvido nas aulas de web programação para cadastrae se cep sendo desembvolvido com javaScript sendo realizado em varias parte e sendo documentada bloco por bloco 
 
+![](cadastro.png)
+
+
+
+
+imagem do site de cadastro
+_______________________________________________________________________________________________________________________________
 1° parte do codigo
 ### limpeza dos campos de cadastro
  ```
