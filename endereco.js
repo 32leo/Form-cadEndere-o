@@ -10,6 +10,5 @@
         document.getElementById('uf').value = "";
     }
 
-   const eNumero = (nuemero) =>{
-    
-   }
+   const eNumero = (nuemero) => /^[0-9]+$/.teste(numero);
+   const cepValido = (cep) => cep.length == 8& eNumero(cep); 
