@@ -1,3 +1,74 @@
-  /* div{ * padding-top: 20px;
-    padding-left: 20px;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(mega.jpg);
+}
+.form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+h1 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+input:focus {
+    border-color: #007BFF;
+    outline: none;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.3);
+}
+.form-group .small-text {
+    font-size: 12px;
+    color: #777;
+}
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+.submit-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.submit-btn:hover {
+    background-color: #0056b3;
+}
+ body{
+background: url(https://3.bp.blogspot.com/-rF31dyvdpHc/Txid-3rTzmI/AAAAAAAAI4Q/o84fQ7XAobQ/s1600/wallpaper-Paisagens%25203D-papeis-de-parede.jpg)
 }
