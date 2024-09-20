@@ -5,6 +5,7 @@
 // função para limpar formulario
 // -------------------------------------------------------------------------------------------------------------
     const limparforulario = () =>{
+        document.getElementById('cep').value  = '';
         document.getElementById('lagrodouro').value = '';
         document.getElementById('bairro').value = '';
         document.getElementById('localidade').value ='';
