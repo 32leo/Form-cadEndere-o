@@ -50,7 +50,7 @@ const pesquisarCEP = async() =>{
         }
 }
 // adicionar escutador pata executar consumo de API da ViaCEP
-document.getElementById('cep').addEventListener();
+document.getElementById('cep').addEventListener('focusout');
 
 
 
