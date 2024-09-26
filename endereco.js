@@ -25,3 +25,32 @@
       document.getElementById('uf').value = endereco.uf;
 
 }
+// FUNÇÃO DE CONSUMO  DE API viaCEP
+// -----------------------------------------------------------------------------------------------------------------------------------------
+
+const pesquisarCEP = async() =>{
+        limparforulario();
+        const url = `https://viacep.com.br/ws/${cep.value}/json/`;
+        if(cepValido(cep.value)){
+            const dados = await fetch(url);
+            const addres = await dados.jason();
+            
+
+            if(addres.hasOwnPropety('erro')){
+            alert('CEP não encontrado')
+            
+
+            }
+            else{
+                alert("CEP incorreto")
+            }
+    }
+        else{
+            alert('CEP incorreto!')
+        }
+}
+// adicionar escutador pata executar consumo de API da ViaCEP
+document.getElementById('cep').addEventListener();
+
+
+
