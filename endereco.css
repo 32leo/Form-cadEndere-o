@@ -1,14 +1,4 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-image: url(mega.jpg);
-}
+
 .form-container {
     background-color: #fff;
     padding: 20px;
@@ -70,5 +60,13 @@ input:focus {
     background-color: #0056b3;
 }
  body{
-background: url(https://3.bp.blogspot.com/-rF31dyvdpHc/Txid-3rTzmI/AAAAAAAAI4Q/o84fQ7XAobQ/s1600/wallpaper-Paisagens%25203D-papeis-de-parede.jpg)
+background: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fbr.freepik.com%2Ficone%2Fcadastro_9785412&psig=AOvVaw3-oeREs-zBIuvwlSs_LZVo&ust=1727967593428000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCIiLhJb774gDFQAAAAAdAAAAABAE)
+}
+input{
+  padding-left: 50%;
+  padding-right: 50%;
+  width: 600px;
+}
+div{
+    
 }

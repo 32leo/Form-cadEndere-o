@@ -33,7 +33,7 @@ const pesquisarCEP = async() =>{
         const url = `https://viacep.com.br/ws/${cep.value}/json/`;
         if(cepValido(cep.value)){
             const dados = await fetch(url);
-            const addres = await dados.jason();
+            const addres = await dados.json();
             
 
             if(addres.hasOwnPropety('erro')){
@@ -50,7 +50,7 @@ const pesquisarCEP = async() =>{
         }
 }
 // adicionar escutador pata executar consumo de API da ViaCEP
-document.getElementById('cep').addEventListener('focusout');
+document.getElementById('cep').addEventListener('focusout', pesquisarCEP);
 
 
 
