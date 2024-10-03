@@ -116,25 +116,28 @@ JavaScript para o consumo da API ViaCEP.
 Fetch API para fazer requisições HTTP assíncronas.
 
  1. ## async:
- * ### A função async no JavaScript é usada para definir uma função assíncrona, permitindo que o código execute operações que podem demorar (como chamadas a APIs ou operações de leitura de arquivos) sem bloquear a execução do restante do código.
+ * A função async no JavaScript é usada para definir uma função assíncrona, permitindo que o código execute operações que podem demorar (como chamadas a APIs ou operações de leitura de arquivos) sem bloquear a execução do restante do código.
 
 2. ## await:
-* ### A palavra-chave await no JavaScript é usada para esperar a resolução de uma Promise dentro de uma função assíncrona (async). Ela permite que o código seja executado de forma mais sequencial e legível, mesmo em operações assíncronas, como requisições de rede, leitura de arquivos, ou qualquer tarefa que leve tempo para ser concluída.
+*  A palavra-chave await no JavaScript é usada para esperar a resolução de uma Promise dentro de uma função assíncrona (async). Ela permite que o código seja executado de forma mais sequencial e legível, mesmo em operações assíncronas, como requisições de rede, leitura de arquivos, ou qualquer tarefa que leve tempo para ser concluída.
 3. ## fethc:
- * ###  A função fetch() é usada em JavaScript para fazer requisições HTTP (como GET, POST, PUT, DELETE) a um servidor de forma assíncrona, geralmente para recuperar ou enviar dados de uma API. O fetch() retorna uma Promise, o que significa que você pode usar o encadeamento de métodos como then() e catch() para lidar com o resultado da requisição e possíveis erros.
+ *  A função fetch() é usada em JavaScript para fazer requisições HTTP (como GET, POST, PUT, DELETE) a um servidor de forma assíncrona, geralmente para recuperar ou enviar dados de uma API. O fetch() retorna uma Promise, o que significa que você pode usar o encadeamento de métodos como then() e catch() para lidar com o resultado da requisição e possíveis erros.
  4. ## arrow funtion:
-  ### Uma arrow function (função de seta) em JavaScript é uma maneira mais concisa de escrever funções introduzida no ECMAScript 6 (ES6). Elas são usadas principalmente para simplificar a sintaxe, tornando o código mais limpo e legível, especialmente em funções curtas.
+   Uma arrow function (função de seta) em JavaScript é uma maneira mais concisa de escrever funções introduzida no ECMAScript 6 (ES6). Elas são usadas principalmente para simplificar a sintaxe, tornando o código mais limpo e legível, especialmente em funções curtas.
   5. ## expreção regular:
-   ### Uma expressão regular (ou regex) em JavaScript é uma sequência de caracteres que define um padrão de busca. Elas são usadas para realizar correspondências e manipulação de strings, como validação de entrada, busca e substituição de texto. O JavaScript fornece suporte nativo para expressões regulares através do objeto
+    Uma expressão regular (ou regex) em JavaScript é uma sequência de caracteres que define um padrão de busca. Elas são usadas para realizar correspondências e manipulação de strings, como validação de entrada, busca e substituição de texto. O JavaScript fornece suporte nativo para expressões regulares através do objeto
    exemplo:
     
     /^[0-9]+$/
-   6. ## getElementById:
-   ### O método getElementById é uma função do DOM (Document Object Model) em JavaScript que permite selecionar e manipular elementos HTML em uma página da web. Este método é utilizado para obter uma referência a um único elemento do documento que possui um atributo id específico.
-   7. ## addEventListener:
-   ### O método addEventListener em JavaScript é usado para adicionar um "ouvinte de eventos" a um elemento do DOM. Esse ouvinte escuta um evento específico e executa uma função quando esse evento ocorre. O evento focusout é um dos muitos tipos de eventos que podem ser utilizados.
+ 6. ## getElementById:
+    O método getElementById é uma função do DOM (Document Object Model) em JavaScript que permite selecionar e manipular elementos HTML em uma página da web. Este método é utilizado para obter uma referência a um único elemento do documento que possui um atributo id específico.
+ 
+7. ## addEventListener:
+    O método addEventListener em JavaScript é usado para adicionar um "ouvinte de eventos" a um elemento do DOM. Esse ouvinte escuta um evento específico e executa uma função quando esse evento ocorre. O evento focusout é um dos muitos tipos de eventos que podem ser utilizados.
+
  8. ## focusout:
- ### O evento focusout é disparado quando um elemento perde o foco. Isso pode ocorrer, por exemplo, quando o usuário clica fora do elemento ou navega para outro campo, usando o teclado. É semelhante ao evento blur, mas com uma diferença importante: focusout é disparado em um elemento e em todos os seus elementos filhos, enquanto blur é disparado apenas no elemento que perdeu o foco.
+ 
+  O evento focusout é disparado quando um elemento perde o foco. Isso pode ocorrer, por exemplo, quando o usuário clica fora do elemento ou navega para outro campo, usando o teclado. É semelhante ao evento blur, mas com uma diferença importante: focusout é disparado em um elemento e em todos os seus elementos filhos, enquanto blur é disparado apenas no elemento que perdeu o foco.
  
 _______________________________________________________________________________________________________________________________________________
   ![](leo.png)
