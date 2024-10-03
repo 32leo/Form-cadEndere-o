@@ -120,7 +120,7 @@ Fetch API para fazer requisições HTTP assíncronas.
 
 2. ## await:
 *  A palavra-chave await no JavaScript é usada para esperar a resolução de uma Promise dentro de uma função assíncrona (async). Ela permite que o código seja executado de forma mais sequencial e legível, mesmo em operações assíncronas, como requisições de rede, leitura de arquivos, ou qualquer tarefa que leve tempo para ser concluída.
-3. ## fethc:
+3. ## fetch:
  *  A função fetch() é usada em JavaScript para fazer requisições HTTP (como GET, POST, PUT, DELETE) a um servidor de forma assíncrona, geralmente para recuperar ou enviar dados de uma API. O fetch() retorna uma Promise, o que significa que você pode usar o encadeamento de métodos como then() e catch() para lidar com o resultado da requisição e possíveis erros.
  4. ## arrow funtion:
    Uma arrow function (função de seta) em JavaScript é uma maneira mais concisa de escrever funções introduzida no ECMAScript 6 (ES6). Elas são usadas principalmente para simplificar a sintaxe, tornando o código mais limpo e legível, especialmente em funções curtas.
@@ -151,6 +151,24 @@ ________________________________________________________________________________
    https://getbootstrap.com.br/docs/4.1/components/forms/
 
 
+### Referências
+
+[await](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/await)
+
+[async](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function)
+
+[fetch](https://developer.mozilla.org/pt-BR/docs/Web/API/Fetch_API/Using_Fetch)
+
+[arronw funtion](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
+
+[espressão regular](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Regular_expressions)
+
+[getElementById](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById)
+
+[addEventListener](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)
+
+[focusout](https://developer.mozilla.org/en-US/docs/Web/API/Element/focusout_event)
+
    desenvolvedor:
 
 
@@ -159,22 +177,3 @@ ________________________________________________________________________________
 
  ![](leonyn.jpg) 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  ##  Este código é um exemplo de como uma pequena automação pode fazer uma grande diferença em termos de usabilidade e eficiência em sistemas online.
